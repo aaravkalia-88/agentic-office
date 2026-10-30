@@ -1,3 +1,11 @@
+## Agentic Office
+
+This fork builds on [AgentSystemLabs/agent-office](https://github.com/AgentSystemLabs/agent-office), with its history and MIT attribution preserved. Start with [running this fork](docs/fork.md), the [manager and OpenRouter expansion plan](plans/office-manager.md), and the [ECC / YouTube agent catalog](docs/agent-catalog.md).
+
+The current application is the imported office baseline. The manager and free-only routing are planned. Installer and deployment examples below describe the upstream distribution; use the source instructions in [docs/fork.md](docs/fork.md) for this checkout.
+
+---
+
 > [!WARNING]
 > **Work in progress.** Agent Office is built for one person's workflow — mine — and it changes fast as I iterate on it.
 > Expect breaking changes between releases: keys that move, screens that get redrawn, features that come and go
