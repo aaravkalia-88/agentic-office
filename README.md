@@ -4,6 +4,19 @@ This fork builds on [AgentSystemLabs/agent-office](https://github.com/AgentSyste
 
 The current application is the imported office baseline. The manager and free-only routing are planned. Installer and deployment examples below describe the upstream distribution; use the source instructions in [docs/fork.md](docs/fork.md) for this checkout.
 
+### Verification
+
+The fork build and type checks passed, along with **614 automated tests** on macOS. Tests cover the office baseline, including the queue, worker lifecycle, and Git worktree handling. The manager and routing extensions are described in the plan above. [GitHub Actions run](https://github.com/aaravkalia-88/agentic-office/actions/runs/41125924197)
+
+```sh
+npm ci --ignore-scripts
+npm run typecheck
+npm run build
+npm test
+```
+
+Some fixtures start local loopback sockets and child processes. Run the suite in an environment that permits both.
+
 ---
 
 > [!WARNING]
