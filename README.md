@@ -4,6 +4,8 @@ This fork builds on [AgentSystemLabs/agent-office](https://github.com/AgentSyste
 
 The current application is the imported office baseline. The manager and free-only routing are planned. Installer and deployment examples below describe the upstream distribution; use the source instructions in [docs/fork.md](docs/fork.md) for this checkout.
 
+**Fork verification, 22 November 2026.** The local build and type checks passed, and all 614 tests passed on rerun with loopback enabled. On the first pass, one restart-during-clone fixture timed out. The fork release workflow also passed for the tested commit. [GitHub Actions run](https://github.com/aaravkalia-88/agentic-office/actions/runs/41125924197)
+
 ---
 
 > [!WARNING]
